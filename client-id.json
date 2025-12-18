@@ -1,0 +1,11 @@
+{
+  "@context": ["https://www.w3.org/ns/solid/oidc-context.jsonld"],
+  "client_id": "https://<YOUR_PUBLIC_URL>/client-id.json",
+  "client_name": "FySelf Profile Staging",
+  "redirect_uris": [
+    "http://localhost:8080/v3/pod/callback",
+    "https://staging.fyself.com/v3/pod/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "scope": "openid webid offline_access"
+}
